@@ -1,0 +1,19 @@
+{
+  "name": "bobiverse-expansion",
+  "version": "1.0.0",
+  "scripts": {
+    "processTimeline": "ts-node src/processTimeline.ts"
+  },
+  "author": "Antony74",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.10.5",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true
+  }
+}
